@@ -51,11 +51,7 @@ test:
 #
 production:
   <<: *default
-  host: tokai-db-mysql-aws.carmrttfutck.us-east-2.rds.amazonaws.com
-  database: tokai_db_mysql_aws
+  database: tokai_onair_db_production
   username: kanta
-  password: $Kanta4714
-  # database: tokai_onair_db_production
-  # username: kanta
-  # password: <%= ENV['TOKAI_DATABASE_DATABASE_PASSWORD'] %>
-  # socket: /cloudsql/tokai-onair-db:asia-northeast1:tokai-onair-db
+  password: <%= ENV['TOKAI_DATABASE_DATABASE_PASSWORD'] %>
+  socket: /cloudsql/tokai-onair-db:asia-northeast1:tokai-onair-db
