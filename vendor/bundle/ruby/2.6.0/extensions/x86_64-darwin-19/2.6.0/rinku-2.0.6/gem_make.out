@@ -1,0 +1,19 @@
+current directory: /Users/momokan928/tokai-database/vendor/bundle/ruby/2.6.0/gems/rinku-2.0.6/ext/rinku
+/Users/momokan928/.rbenv/versions/2.6.2/bin/ruby -I /Users/momokan928/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20200709-2276-15469jz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/momokan928/tokai-database/vendor/bundle/ruby/2.6.0/gems/rinku-2.0.6/ext/rinku
+make "DESTDIR=" clean
+
+current directory: /Users/momokan928/tokai-database/vendor/bundle/ruby/2.6.0/gems/rinku-2.0.6/ext/rinku
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+compiling rinku.c
+compiling rinku_rb.c
+compiling utf8.c
+linking shared-object rinku.bundle
+
+current directory: /Users/momokan928/tokai-database/vendor/bundle/ruby/2.6.0/gems/rinku-2.0.6/ext/rinku
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rinku.bundle ./.gem.20200709-2276-1vq4j7j
